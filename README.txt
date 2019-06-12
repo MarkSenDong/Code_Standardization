@@ -9,12 +9,6 @@ The scope of this repository should include:
 Useful materials:
 
 Topic 1. How to write code according to the official recommended style guide, including variable naming conventions
-  Python : 
-  PEP 8 -- Official Style Guide for Python Code:
-  This is an official style guide from python.org. 
-  It outlines the most conventional coding style that should be followed in most cases in detail. 
-  https://www.python.org/dev/peps/pep-0008/#introduction
-  
   Matlab:
   Matlab Style Guidelines 2.0, Richard Johnson: 
   A comprehensive style guide for writing matlab code.
@@ -23,6 +17,12 @@ Topic 1. How to write code according to the official recommended style guide, in
   The introduction of a tool included in Matlab which displays potential errors and problems, 
   as well as opportunities for improvement in your code through messages. 
   https://de.mathworks.com/help/matlab/matlab_prog/matlab-code-analyzer-report.html
+  
+  Python : 
+  PEP 8 -- Official Style Guide for Python Code:
+  This is an official style guide from python.org. 
+  It outlines the most conventional coding style that should be followed in most cases in detail. 
+  https://www.python.org/dev/peps/pep-0008/#introduction
   
   General Tips:
   Top 15+ Best Practices for Writing Super Readable Code, Burak Guzel
@@ -50,6 +50,17 @@ Topic 2. How to effectively comment your code
   
 
 Topic 3. How to write description and helper document for your customised functions
+  Matlab:
+  For an example of a script, please referring to the following .m script in the repository:
+  matlab_code_documentation_example.m
+  For an example of a function, please referring to the following .m script in the repository:
+  image_reorganisation_pronia.m
+  You can access the docstring of the matlab function by typing: help function_name;
+  for example:
+    help image_reorganisation_pronia;
+  
   Python: 
   For a comprehensive example, please referring to the following .py script in the repository:
   python_code_documentation_example.py
+  
+  
