@@ -11,15 +11,6 @@ function image_reorganisation_pronia(original_dir,copy_dir,bogan_id)
 % Returns:
 %   None
 
-%% User Defined Variables
-% Set the original directory of the images
-%original_dir='/volume/data/MUC/MRI/06-June-2019_nii/';
-% Set the destination directoy of the images
-%copy_dir='/volume/data/MUC/MRI/06-June-2019_pronia/'; 
-% Set the initial bogan_id for the data set. 
-% Beware: every image must have a globally unique bogan_id!
-%bogan_id = 2000000;
-
 %% Addpaths 
 addpath /opt/PRONIASoftware/Developpment/Main/Utilities
 
