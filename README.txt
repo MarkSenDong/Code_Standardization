@@ -48,5 +48,8 @@ Topic 2. How to effectively comment your code
   It should be an advanced material for people who do a lot of coding in the lab.
   https://medium.com/@andrewgoldis/how-to-document-source-code-responsibly-2b2f303aa525
   
-  
-  
+
+Topic 3. How to write description and helper document for your customised functions
+  Python: 
+  For a comprehensive example, please referring to the following .py script in the repository:
+  python_code_documentation_example.py
