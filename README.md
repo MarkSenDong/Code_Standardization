@@ -1,66 +1,67 @@
+# Code Standardization
 This repository provides an overview of code standardisation for both Matlab and Python.
 
-The scope of this repository should include:
-1. How to write code according to the official recommended style guide, including variable naming conventions
-2. How to effectively comment your code 
-3. How to write description and helper document for your customised functions
-4. How to upload and manage your code with github
+The scope of this repository should include:<br>
+<b>1.</b> How to write code according to the official recommended style guide, including variable naming conventions<br>
+<b>2.</b> How to effectively comment your code<br>
+<b>3.</b> How to write description and helper document for your customised functions<br>
+<b>4.</b> How to upload and manage your code with github<br>
 
-Useful materials:
+## Useful materials:
 
-Topic 1. How to write code according to the official recommended style guide, including variable naming conventions
-  Matlab:
-  Matlab Style Guidelines 2.0, Richard Johnson: 
-  A comprehensive style guide for writing matlab code.
-  http://www.datatool.com/downloads/MatlabStyle2%20book.pdf
-  How to use Matlab Code Analyzer to improve the readability and consistency of your code:
+### Topic 1. How to write code according to the official recommended style guide, including variable naming conventions
+  <b>Matlab:</b><br>
+  Matlab Style Guidelines 2.0, Richard Johnson: <br>
+  A comprehensive style guide for writing matlab code.<br>
+  http://www.datatool.com/downloads/MatlabStyle2%20book.pdf<br>
+  How to use Matlab Code Analyzer to improve the readability and consistency of your code:<br>
   The introduction of a tool included in Matlab which displays potential errors and problems, 
-  as well as opportunities for improvement in your code through messages. 
-  https://de.mathworks.com/help/matlab/matlab_prog/matlab-code-analyzer-report.html
-  
-  Python : 
-  PEP 8 -- Official Style Guide for Python Code:
-  This is an official style guide from python.org. 
-  It outlines the most conventional coding style that should be followed in most cases in detail. 
-  https://www.python.org/dev/peps/pep-0008/#introduction
-  
-  General Tips:
-  Top 15+ Best Practices for Writing Super Readable Code, Burak Guzel
+  as well as opportunities for improvement in your code through messages. <br>
+  https://de.mathworks.com/help/matlab/matlab_prog/matlab-code-analyzer-report.html<br>
+  <br>
+  <b>Python:</b><br>
+  PEP 8 -- Official Style Guide for Python Code:<br>
+  This is an official style guide from python.org. <br>
+  It outlines the most conventional coding style that should be followed in most cases in detail. <br>
+  https://www.python.org/dev/peps/pep-0008/#introduction<br>
+  <br>
+  <b>General Tips:</b><br>
+  Top 15+ Best Practices for Writing Super Readable Code, Burak Guzel<br>
   This blog post discusses some of the most common and obvious ways to improve the readability of your code
-  with code snippet examples. It lists some of the most basic coding style conventions which is applicable across different languages.
-  https://code.tutsplus.com/tutorials/top-15-best-practices-for-writing-super-readable-code--net-8118
+  with code snippet examples. It lists some of the most basic coding style conventions which is applicable across different languages.<br>
+  https://code.tutsplus.com/tutorials/top-15-best-practices-for-writing-super-readable-code--net-8118<br>
+<br> 
  
- 
-Topic 2. How to effectively comment your code 
-  How To Properly Comment Your Code, MIT
-  This is an simple example of how to comment code for readability of other people and your future self.
-  The example provided is very basic and for beginners, it would be a good point to start.
-  https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/lectures/MIT6_189IAP11_comment.pdf
-  
-  Putting comments in code: the good, the bad, and the ugly, Bill Sourour
-  This is a blog post which describes some general guidelines for commenting. 
-  It is more advanced and detailed than the above material, but the concepts should be apparent to most of the people in the lab.
-  https://www.freecodecamp.org/news/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83/
-  
-  How to document source code responsibly, Andrew Goldis
-  This blog post explains on a conceptual but profound level the purposes of commenting with some code examples.
-  It also outlines the different types of comments / documentation for code maintainers/co-developers VS code users.
-  It should be an advanced material for people who do a lot of coding in the lab.
-  https://medium.com/@andrewgoldis/how-to-document-source-code-responsibly-2b2f303aa525
-  
+### Topic 2. How to effectively comment your code 
+  <b>How To Properly Comment Your Code, MIT</b><br>
+  This is an simple example of how to comment code for readability of other people and your future self.<br>
+  The example provided is very basic and for beginners, it would be a good point to start.<br>
+  https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/lectures/MIT6_189IAP11_comment.pdf<br>
+  <br>
+  <b>Putting comments in code: the good, the bad, and the ugly, Bill Sourour</b><br>
+  This is a blog post which describes some general guidelines for commenting. <br>
+  It is more advanced and detailed than the above material, but the concepts should be apparent to most of the people in the lab.<br>
+  https://www.freecodecamp.org/news/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83/<br>
+  <br>
+  <b>How to document source code responsibly, Andrew Goldis</b><br>
+  This blog post explains on a conceptual but profound level the purposes of commenting with some code examples.<br>
+  It also outlines the different types of comments / documentation for code maintainers/co-developers VS code users.<br>
+  It should be an advanced material for people who do a lot of coding in the lab.<br>
+  https://medium.com/@andrewgoldis/how-to-document-source-code-responsibly-2b2f303aa525<br>
+  <br>
 
-Topic 3. How to write description and helper document for your customised functions
-  Matlab:
-  For an example of a script, please referring to the following .m script in the repository:
-  matlab_code_documentation_example.m
-  For an example of a function, please referring to the following .m script in the repository:
-  image_reorganisation_pronia.m
-  You can access the docstring of the matlab function by typing: help function_name;
-  for example:
-    help image_reorganisation_pronia;
-  
-  Python: 
-  For a comprehensive example, please referring to the following .py script in the repository:
-  python_code_documentation_example.py
-  
+### Topic 3. How to write description and helper document for your customised functions
+  <b>Matlab:</b><br>
+  For an example of a script, please referring to the following .m script in the repository:<br>
+  https://github.com/MarkSenDong/Code_Standardization/blob/master/image_reorganisation_pronia.mbr>
+  For an example of a function, please referring to the following .m script in the repository:<br>
+  https://github.com/MarkSenDong/Code_Standardization/blob/master/image_reorganisation_pronia.m<br>
+  You can access the docstring of the matlab function by typing: help function_name;<br>
+  for example:<br>
+    help image_reorganisation_pronia;<br>
+  <br>
+  <b>Python:</b><br>
+  For a comprehensive example, please referring to the following .py script in the repository:<br>
+  https://github.com/MarkSenDong/Code_Standardization/blob/master/python_code_documentation_example.py<br>
+  <br>
   
