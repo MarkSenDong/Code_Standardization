@@ -14,6 +14,7 @@ The scope of this repository should include:<br>
   Matlab Style Guidelines 2.0, Richard Johnson: <br>
   A comprehensive style guide for writing matlab code.<br>
   http://www.datatool.com/downloads/MatlabStyle2%20book.pdf<br>
+  <br>
   How to use Matlab Code Analyzer to improve the readability and consistency of your code:<br>
   The introduction of a tool included in Matlab which displays potential errors and problems, 
   as well as opportunities for improvement in your code through messages. <br>
@@ -53,7 +54,8 @@ The scope of this repository should include:<br>
 ### Topic 3. How to write description and helper document for your customised functions
   <b>Matlab:</b><br>
   For an example of a script, please referring to the following .m script in the repository:<br>
-  https://github.com/MarkSenDong/Code_Standardization/blob/master/image_reorganisation_pronia.mbr>
+  https://github.com/MarkSenDong/Code_Standardization/blob/master/image_reorganisation_pronia.m<br>
+  <br>
   For an example of a function, please referring to the following .m script in the repository:<br>
   https://github.com/MarkSenDong/Code_Standardization/blob/master/image_reorganisation_pronia.m<br>
   You can access the docstring of the matlab function by typing: help function_name;<br>
