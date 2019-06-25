@@ -102,3 +102,5 @@ convert_nii(images,save_folder)
 # Getting only the files with '.nii' file ending
 images = [x for x in listdir(save_folder) if '.nii' in x]
 zip_gz(images,save_folder)
+
+# Add a line to create a split
