@@ -67,3 +67,7 @@ The scope of this repository should include:<br>
   https://github.com/MarkSenDong/Code_Standardization/blob/master/python_code_documentation_example.py<br>
   <br>
   
+### Topic 4. How to upload and manage your code with github
+  Follow this 20 minutes Youtube tutorial:<br>
+  https://www.youtube.com/watch?v=0fKg7e37bQE<br>
+  
