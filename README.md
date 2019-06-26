@@ -70,4 +70,7 @@ The scope of this repository should include:<br>
 ### Topic 4. How to upload and manage your code with github
   Follow this 20 minutes Youtube tutorial:<br>
   https://www.youtube.com/watch?v=0fKg7e37bQE<br>
-  
+  <br>
+  How to use github desktop for gitlab:<br>
+  https://itnext.io/how-to-use-github-desktop-with-gitlab-cd4d2de3d104<br>
+  <br>
