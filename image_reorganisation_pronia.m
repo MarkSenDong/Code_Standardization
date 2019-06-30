@@ -11,6 +11,10 @@ function image_reorganisation_pronia(original_dir,copy_dir,bogan_id)
 % Returns:
 %   None
 
+% author: Mark Sen Dong
+% date: 06 Jun 2019
+% version: 1.0
+
 %% Addpaths 
 addpath /opt/PRONIASoftware/Developpment/Main/Utilities
 
