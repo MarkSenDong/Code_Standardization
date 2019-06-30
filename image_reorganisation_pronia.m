@@ -15,8 +15,7 @@ function image_reorganisation_pronia(original_dir,copy_dir,bogan_id)
 addpath /opt/PRONIASoftware/Developpment/Main/Utilities
 
 %% Process
-% Create a file for logging any errors occured during the reorganisation
-% process.
+% Create a file for logging any errors occured during the reorganisation process.
 fileID = fopen('copy_errors.txt','w');     
 
 % Get a list of all folders within the original_dir
@@ -34,15 +33,15 @@ for k = 3:length(files)
         disp(subname);
 
         % Make the child directories
-         system(['mkdir ' copy_dir subname]);
-         system(['mkdir ' copy_dir subname '/Data']);
-         system(['mkdir ' copy_dir subname '/Data/' num2str(bogan_id)]);
-         system(['mkdir ' copy_dir subname '/xml_folder']);
+        system(['mkdir ' copy_dir subname]);
+        system(['mkdir ' copy_dir subname '/Data']);
+        system(['mkdir ' copy_dir subname '/Data/' num2str(bogan_id)]);
+        system(['mkdir ' copy_dir subname '/xml_folder']);
 
         % Write the .xml file
-         ss.(subname).T0.MRI_sMRI = num2str(bogan_id);        
-         xmlpath=[copy_dir subname '/xml_folder'];
-         struct2xml(ss,[xmlpath '/' subname '.xml']);
+        ss.(subname).T0.MRI_sMRI = num2str(bogan_id);        
+        xmlpath=[copy_dir subname '/xml_folder'];
+        struct2xml(ss,[xmlpath '/' subname '.xml']);
 
         % Copy the .nii.gz file and remove it from original location
         system(['cp ' original_dir subjectID ' ' copy_dir subname '/Data/' num2str(bogan_id) '/' subjectID]);
