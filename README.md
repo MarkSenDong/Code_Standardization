@@ -7,6 +7,9 @@ The scope of this repository should include:<br>
 <b>3.</b> How to write description and helper document for your customised functions<br>
 <b>4.</b> How to upload and manage your code with github<br>
 
+## Matlab users, please start with the powerpoint presentation:
+  https://github.com/MarkSenDong/Code_Standardization/blob/master/matlab_coding_standardisation.pptx
+
 ## Useful materials:
 
 ### Topic 1. How to write code according to the official recommended style guide, including variable naming conventions
