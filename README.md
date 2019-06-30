@@ -54,7 +54,7 @@ The scope of this repository should include:<br>
 ### Topic 3. How to write description and helper document for your customised functions
   <b>Matlab:</b><br>
   For an example of a script, please referring to the following .m script in the repository:<br>
-  https://github.com/MarkSenDong/Code_Standardization/blob/master/image_reorganisation_pronia.m<br>
+  https://github.com/MarkSenDong/Code_Standardization/blob/master/matlab_code_documentation_example.m<br>
   <br>
   For an example of a function, please referring to the following .m script in the repository:<br>
   https://github.com/MarkSenDong/Code_Standardization/blob/master/image_reorganisation_pronia.m<br>
