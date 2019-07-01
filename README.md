@@ -8,7 +8,18 @@ The scope of this repository should include:<br>
 <b>4.</b> How to upload and manage your code with github<br>
 
 ## Matlab users, please start with the powerpoint presentation:
-  https://github.com/MarkSenDong/Code_Standardization/blob/master/matlab_coding_standardisation.pptx
+  https://github.com/MarkSenDong/Code_Standardization/blob/master/matlab_coding_standardisation.pptx<br>
+  <br>
+## Matlab example codes:
+  For an example of a script, please referring to the following .m script in the repository:<br>
+  https://github.com/MarkSenDong/Code_Standardization/blob/master/matlab_code_documentation_example.m<br>
+  <br>
+  For an example of a function, please referring to the following .m script in the repository:<br>
+  https://github.com/MarkSenDong/Code_Standardization/blob/master/image_reorganisation_pronia.m<br>
+  You can access the docstring of the matlab function by typing: help function_name;<br>
+  for example:<br>
+    help image_reorganisation_pronia;<br>
+  <br>
 
 ## Useful materials:
 
