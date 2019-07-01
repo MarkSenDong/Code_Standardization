@@ -8,6 +8,10 @@
 % into the PRONIA folder structure so that the pipeline tools will work on
 % the wp3 server. 
 
+% author: Mark Sen Dong
+% date: 06 Jun 2019
+% version: 1.0
+
 % ----------------------------------------------------------------------------
 % User Defined Variables
 % The variables which need to be changed by future users in order to use
