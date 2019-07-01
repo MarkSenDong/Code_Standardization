@@ -1,3 +1,5 @@
+% ----------------------------------------------------------------------------
+% Header
 % This is an examplary matlab script to show the proper documentation and
 % coding styles when writting matlab code
 %
@@ -6,7 +8,8 @@
 % into the PRONIA folder structure so that the pipeline tools will work on
 % the wp3 server. 
 
-%% User Defined Variables:
+% ----------------------------------------------------------------------------
+% User Defined Variables
 % The variables which need to be changed by future users in order to use
 % the script.
 % They should always be declaired at the beginning og the script, with
@@ -18,13 +21,16 @@ originalDir='/volume/data/MUC/MRI/06-June-2019_nii/';
 copyDir='/volume/data/MUC/MRI/06-June-2019_pronia/'; 
 % Set the initial boganId for the data set. Beware: every image must have a globally unique boganId!
 boganId = 2000000;
- 
-addpath /opt/PRONIASoftware/Developpment/Main/Utilities
 
+% ----------------------------------------------------------------------------
+% Constants
+% These values should not be changed by users.
+addpath /opt/PRONIASoftware/Developpment/Main/Utilities
 % Create a file for logging any errors occured during the reorganisation process.
 FILE_ID = fopen('copy_errors.txt','w');     
 
-
+% ----------------------------------------------------------------------------
+% The main process
 files = dir(originalDir);
 % Iterate through every image in the originalDir
 for k = 3:length(files)
