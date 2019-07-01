@@ -12,16 +12,16 @@ The scope of this repository should include:<br>
   <br>
   
 ## Matlab example codes:
-  For an example of a script, please referring to the following .m script in the repository:<br>
+  Script example:<br>
   https://github.com/MarkSenDong/Code_Standardization/blob/master/matlab_code_documentation_example.m<br>
   <br>
-  For an example of a function, please referring to the following .m script in the repository:<br>
+  Function example:<br>
   https://github.com/MarkSenDong/Code_Standardization/blob/master/image_reorganisation_pronia.m<br>
-  You can access the header information of the matlab function by typing:<br>
+  You can access the header information of a matlab function by typing:<br>
   <pre><i>help function_name;</i></pre>
   
 ## Python example codes:
-  For a comprehensive example, please referring to the following .py script in the repository:<br>
+  Script + function example:<br>
   https://github.com/MarkSenDong/Code_Standardization/blob/master/python_code_documentation_example.py<br>
   <br>
 
