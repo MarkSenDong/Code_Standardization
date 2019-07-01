@@ -75,6 +75,7 @@ The scope of this repository should include:<br>
   <br>
   <b>Python:</b><br>
   https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
+  <br>
   
 ### Topic 4. How to upload and manage your code with github
   Follow this 20 minutes Youtube tutorial:<br>
