@@ -62,3 +62,4 @@ for k = 3:length(files)
 end % end of files iteration loop
 
 fclose(FILE_ID);
+end % end of function
