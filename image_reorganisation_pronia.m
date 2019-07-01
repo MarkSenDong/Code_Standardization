@@ -14,12 +14,16 @@ function image_reorganisation_pronia(originalDir,copyDir,boganId)
 % date: 06 Jun 2019
 % version: 1.0
 
-addpath /opt/PRONIASoftware/Developpment/Main/Utilities
-
-% Create a file for logging any errors occured during the reorganisation process.
+% ----------------------------------------------------------------------------
+% Constants
+% These values should not be changed by users
 % Use all capitals to name contants
+addpath /opt/PRONIASoftware/Developpment/Main/Utilities
+% Create a file for logging any errors occured during the reorganisation process.
 FILE_ID = fopen('copy_errors.txt','w');     
 
+% ----------------------------------------------------------------------------
+% The main process
 files = dir(originalDir);
 % Iterate through every image in the originalDir to process them
 for k = 3:length(files)
