@@ -18,7 +18,7 @@ The scope of this repository should include:<br>
   For an example of a function, please referring to the following .m script in the repository:<br>
   https://github.com/MarkSenDong/Code_Standardization/blob/master/image_reorganisation_pronia.m<br>
   You can access the header information of the matlab function by typing:<br>
-  <pre><i>help function_name;</i></pre><br>
+  <pre><i>help function_name;</i></pre>
   
 ## Python example codes:
   For a comprehensive example, please referring to the following .py script in the repository:<br>
@@ -71,7 +71,7 @@ The scope of this repository should include:<br>
 
 ### Topic 3. How to write description and helper document for your customised functions
   <b>Matlab:</b><br>
-  https://de.mathworks.com/help/simulink/mdl_gd/maab/na_0025matlabfunctionheader.html
+  https://de.mathworks.com/help/simulink/mdl_gd/maab/na_0025matlabfunctionheader.html<br>
   <b>Python:</b><br>
   https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
   
