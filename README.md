@@ -18,7 +18,11 @@ The scope of this repository should include:<br>
   https://github.com/MarkSenDong/Code_Standardization/blob/master/image_reorganisation_pronia.m<br>
   You can access the docstring of the matlab function by typing: help function_name;<br>
   for example:<br>
-    help image_reorganisation_pronia;<br>
+  <pre><i>help image_reorganisation_pronia;</i></pre><br>
+  <br>
+## Python example codes:
+  For a comprehensive example, please referring to the following .py script in the repository:<br>
+  https://github.com/MarkSenDong/Code_Standardization/blob/master/python_code_documentation_example.py<br>
   <br>
 
 ## Useful materials:
@@ -67,19 +71,9 @@ The scope of this repository should include:<br>
 
 ### Topic 3. How to write description and helper document for your customised functions
   <b>Matlab:</b><br>
-  For an example of a script, please referring to the following .m script in the repository:<br>
-  https://github.com/MarkSenDong/Code_Standardization/blob/master/matlab_code_documentation_example.m<br>
-  <br>
-  For an example of a function, please referring to the following .m script in the repository:<br>
-  https://github.com/MarkSenDong/Code_Standardization/blob/master/image_reorganisation_pronia.m<br>
-  You can access the docstring of the matlab function by typing: help function_name;<br>
-  for example:<br>
-    help image_reorganisation_pronia;<br>
-  <br>
+  https://de.mathworks.com/help/simulink/mdl_gd/maab/na_0025matlabfunctionheader.html
   <b>Python:</b><br>
-  For a comprehensive example, please referring to the following .py script in the repository:<br>
-  https://github.com/MarkSenDong/Code_Standardization/blob/master/python_code_documentation_example.py<br>
-  <br>
+  https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
   
 ### Topic 4. How to upload and manage your code with github
   Follow this 20 minutes Youtube tutorial:<br>
