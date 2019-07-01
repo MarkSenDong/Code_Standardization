@@ -10,16 +10,17 @@ The scope of this repository should include:<br>
 ## Matlab users, please start with the powerpoint presentation:
   https://github.com/MarkSenDong/Code_Standardization/blob/master/matlab_coding_standardisation.pptx<br>
   <br>
+  
 ## Matlab example codes:
   For an example of a script, please referring to the following .m script in the repository:<br>
   https://github.com/MarkSenDong/Code_Standardization/blob/master/matlab_code_documentation_example.m<br>
   <br>
   For an example of a function, please referring to the following .m script in the repository:<br>
   https://github.com/MarkSenDong/Code_Standardization/blob/master/image_reorganisation_pronia.m<br>
-  You can access the docstring of the matlab function by typing: help function_name;<br>
-  for example:<br>
-  <pre><i>help image_reorganisation_pronia;</i></pre><br>
+  You can access the docstring of the matlab function by typing:<br>
+  <pre><i>help function_name;</i></pre><br>
   <br>
+
 ## Python example codes:
   For a comprehensive example, please referring to the following .py script in the repository:<br>
   https://github.com/MarkSenDong/Code_Standardization/blob/master/python_code_documentation_example.py<br>
