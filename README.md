@@ -74,7 +74,7 @@ The scope of this repository should include:<br>
   https://de.mathworks.com/help/simulink/mdl_gd/maab/na_0025matlabfunctionheader.html<br>
   <br>
   <b>Python:</b><br>
-  https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
+  https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html<br>
   <br>
   
 ### Topic 4. How to upload and manage your code with github
