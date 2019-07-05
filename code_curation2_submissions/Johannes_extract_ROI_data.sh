@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # This is a bash script to extract MRI measures from ROI data in FSL preprocessed data
 # Make sure you have:
 # 1. Run preprocessing pipeline in FSL beforehand in the subjects directory
