@@ -1,5 +1,4 @@
 function [RiskScores] = RiskCalculator(ids,pathDataTable,outputFolder)
-
 %% Information about the calulator
 % This function creates risk scores based on NAPLS risk-calculator (doi:10.1176/appi.ajp.2016.15070890)
 % It is specifically constructed for PRONIA data, so names of variables are based on PRONIA 
@@ -133,6 +132,5 @@ RiskScores.idsMatched = idsMatched;
 
 %% 4. Save outputs
 save([outputFolder 'RiskScores_' date '.mat'], 'RiskScores');
-
 
 end
