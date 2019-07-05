@@ -1,40 +1,37 @@
 function [RiskScores] = RiskCalculator(ids,pathDataTable,outputFolder)
-%% Information about the calulator
+%% function [RiskScores] = RiskCalculator(ids,pathDataTable,outputFolder)
 % This function creates risk scores based on NAPLS risk-calculator (doi:10.1176/appi.ajp.2016.15070890)
-% It is specifically constructed for PRONIA data, so names of variables are based on PRONIA 
-% data organisation and naming convention. These are the variables needed in the risk-calculator formula:
-
+% It is specifically constructed for PRONIA data, so names of variables are based on PRONIA data organisation and naming convention. 
+%
+% These are the variables needed in the risk-calculator formula:
 %   age: 'Study_date_sMRI_T0_yrs'
 %   ** RAVLT: 'GAVLT_Immediate_*_repetition_list_A_T0' (the middle value changes between 1 and 3)
 %   BACS_RAW: 'GDSST_Correct_number_symbol_matchings_T0' 
 %   GFS_declinePastYear: 'GF_S_3_HighPastYearT0_T0' - 'GF_S_2_LowPastYearT0_T0'
 %   P1: 'SIPS_P1_01_OVERALL_QUALY_B_00_0_SeverityScale_Screening'
 %   P2: 'SIPS_P2_01_QUALY_B_00_0_SeverityScale_Screening'
-
+%
 % NAPLS formula:
 %   lp <-   1.4468513 - 0.028694511 * age - 0.014936943 * BACS_RAW -
 %         0.038728208 * HVLT + 0.20635307 * GFS_declinePastYear +
 %         0.34883645 * P1P2
 %   1-year psychosis free probability: 0.9012041^exp(lp)
 %   2-year psychosis free probability: 0.8695878^exp(lp)
-
-% ** The original NAPLS calulator used HVLT-R and PRONIA scores are built on a translation formula for all 
-% subjects except those coming from Turku, because HVLT-R was used in this site.
-
-%% Inputs and outputs
-
+%
+% ** The original NAPLS calulator used HVLT-R and PRONIA scores are built on a translation formula for all subjects except those coming from Turku, because HVLT-R was used in this site.
+%
 % inputs:
-%   ids             subjects' ids (for PRONIA usually PSNs) to calculate the risk scores for (cell of strings, n x 1)
-%   pathDataTable   path to a data table derived from a PRONIA-query extraction (make sure all variables needed are extracted)
-%   outputFolder    path to a folder where the results should be stored
-
+%   ids             cell of strings, n x 1, subjects' ids (for PRONIA usually PSNs) to calculate the risk scores for 
+%   pathDataTable   str, path to a data table derived from a PRONIA-query extraction (make sure all variables needed are extracted)
+%   outputFolder    str, path to a folder where the results should be stored
+%
 % outputs:
 %   riskScores  structure containing these fields:
-%               1. ids              cell array of strings containing the ids imputed matched with the data table
-%               2. Risk             n x 2 vector of doubles (1st column is 1-year risk, second column 2-years risk) 
-%               3. Outcome          n x 2 vector of doubles (1st column is 1-year outcome, second column 2-years outcome)
-%               4. idsMissing       cell array of strings containing eventual requested ids not found in the main data table
-%               5. riskVariables    table containing variables used in the calculator  
+%               1. ids              cell array of strings, containing the ids imputed matched with the data table
+%               2. Risk             n x 2 vector of doubles, 1st column is 1-year risk, second column 2-years risk
+%               3. Outcome          n x 2 vector of doubles, 1st column is 1-year outcome, second column 2-years outcome
+%               4. idsMissing       cell array of strings, containing eventual requested ids not found in the main data table
+%               5. riskVariables    table, containing variables used in the calculator  
 
 % Rachele, July 2019 @PRONIA
 
@@ -63,19 +60,16 @@ RiskScores.idsMissing = ids(~ismember(ids,dataTable.PSN)); %in case there are mi
 %% 2. Create variables
 %1) AGE
 age = cell2mat(cellfun(@str2double,dataMatched.AGE_GAF_T0_Screening,'UniformOutput',false));
-
 % 2) BACS_RAW
 BACS_RAW = dataMatched.GDSST_Correct_number_symbol_matchings_T0;
-
 % 3) GFS_decline
 GFS_declinePastYear = dataMatched.GF_S_3_HighPastYearT0_T0 - dataMatched.GF_S_2_LowPastYearT0_T0;
-
 % 4) SIPS_P1P2
 % Rescale the P1 and P2 variables (SIPS) such that 6 = 4, 5 = 3, 4 = 2, 3 = 1, 0-2 = 0
 SIPS_P1 = 'SIPS_P1_01_OVERALL_QUALY_B_00_0_SeverityScale_Screening';
 SIPS_P2 = 'SIPS_P2_01_QUALY_B_00_0_SeverityScale_Screening';
-SIPS_P1P2 = dataMatched{:,{SIPS_P1,SIPS_P2}};
 
+SIPS_P1P2 = dataMatched{:,{SIPS_P1,SIPS_P2}};
 SIPS_P1P2(SIPS_P1P2 < 3) = 0; 
 SIPS_P1P2(SIPS_P1P2 == 3) = 1;
 SIPS_P1P2(SIPS_P1P2 == 4) = 2;
@@ -119,7 +113,6 @@ year1Outcome = 0.9012041.^exp(lp);
 year2Outcome = 0.8695878.^exp(lp);
 
 %take 1 minus scores obtained to compute for risk for conversion vs non-conversion:
-
 year1Risk = 1 - year1Outcome;
 year2Risk = 1 - year2Outcome;
 
