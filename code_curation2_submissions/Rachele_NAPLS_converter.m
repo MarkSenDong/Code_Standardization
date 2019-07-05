@@ -5,14 +5,12 @@
 % (for an online version of the tool see: http://riskcalc.org:3838/napls/)
 
 % Rachele, July 2019 @PRONIA
-%%
 
 addpath(genpath('/opt/NM/NeuroMiner_Release')); %for NeuroMiner functions
 addpath('/volume/NAPLS_calculator/ScrFun');
 
 
 %% LOAD DATA 
-
 % 1) load the PSN list you want to calculate the risk scores for 
 % 2) set the path to a query-derived PRONIA-data table
 % 3) set an output folder where to save the results
@@ -24,7 +22,6 @@ addpath('/volume/NAPLS_calculator/ScrFun');
 
 
 %% CALCULATE RISK SCORES
-
 RiskScores = RiskCalculator;
 
 
@@ -55,7 +52,7 @@ mapY.Tr.scale{1}.data = [];
 
 % 2) Imputation 
 mapY.Tr.impute.INcont.blockind = [];
-mapY.Tr.impute.INcont.method = 'euclidean'; % 
+mapY.Tr.impute.INcont.method = 'euclidean'; 
 mapY.Tr.impute.INcont.X = mapY.Tr.scale{1,1}.data;
 mapY.Tr.impute.INcont.k = 7; % number of nearest neighbors to impute --> in this case 7 features
 
@@ -87,8 +84,7 @@ lp =   1.4468513 - 0.028694511 * dataImputed.age - 0.014936943 * dataImputed.BAC
 year1OutcomeImputed = 0.9012041.^exp(lp); 
 year2OutcomeImputed = 0.8695878.^exp(lp);
 
-%take 1 minus scores obtained to compute for risk for conversion vs non-conversion:
-
+% take 1 minus scores obtained to compute for risk for conversion vs non-conversion:
 year1RiskImputed = 1 - year1OutcomeImputed;
 year2RiskImputed = 1 - year2OutcomeImputed;
 
@@ -99,7 +95,6 @@ RiskScores.RiskImputed = RiskImputed;
 
 
 %% PLOT RISK SCORES with and without imputed data
-
 histogram(RiskScores.Risk(:,1),'facealpha',0.5,'edgecolor','none') 
 hold on
 histogram(RiskScores.RiskImputed(:,2),'facecolor','r','facealpha',0.5,'edgecolor','none')
