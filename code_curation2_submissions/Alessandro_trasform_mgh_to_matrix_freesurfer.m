@@ -61,5 +61,4 @@ mgh_fsav6.vertices_rh = volr; %save the vertices in the mgh structure
 mgh_fsav6.vox2ras_rh = svr;
 
 clear i
-
 save /home/apigoni/Analisi/SUBJECTS/name %save it in your own directory
