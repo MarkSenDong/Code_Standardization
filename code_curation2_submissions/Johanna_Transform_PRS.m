@@ -16,7 +16,6 @@ function [PRS_Tables]=Transform_PRS(Data_Folder,PRS_Data,Visit)
 % Febuary 2019
 
 %% ACT 1.1: Input checking
-
 if nargin==3
     % check data format of first input
     if ischar(Data_Folder)
@@ -46,7 +45,6 @@ end
 
 
 %% ACT 1.2: Definitions
-
 addpath /opt/NM/distribute/NeuroMiner_Release/
 
 aux_info_folder='/volume/data/PRONIA/DataDump/06-Sep-2018/table_export/table_export/';
@@ -58,7 +56,6 @@ out_folder=[base_folder, '/Genetic_PRS'];
 mkdir(out_folder)
 
 %% ACT 2: Match PSNs form Reference table and PRS table
-
 % convert PSN from PRS table into cell array of strings if necessary
 if iscellstr(PRS.PSN)
     PRS_PSN=PRS.PSN;
@@ -80,7 +77,6 @@ end
 %% ACT 3: Split into HC and PAT group
 % this is done because the PRONIA Portal downloads are saved separately for
 % HC and PAT
-
 ind_HC=cellfun(@(x) strcmp(x,'HC'),aux_PRS.Studygroup);
 aux_PRS=aux_PRS(:,9:end);
 aux_PRS.Properties.RowNames={};
@@ -122,7 +118,6 @@ save(fullfile(out_folder,['complete_information_' visit 'HC_genetic_PRS.mat']),'
 
 
 %% ACT 5: PAT - Get auxiliary info for PRONIA table format
-
 % sMRI aux_info
 load(fullfile([aux_info_folder,'/sMRI/auxiliary_information_' visit 'PAT_MRI_sMRI.mat']))
 [match_info_sMRI,match_PSN_sMRI]=nk_MatchID(aux_info_table.PATIENT_ID,aux_info_table,PSN_PAT,PRS_PAT);
