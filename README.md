@@ -84,3 +84,5 @@ The scope of this repository should include:<br>
   How to use github desktop for gitlab:<br>
   https://itnext.io/how-to-use-github-desktop-with-gitlab-cd4d2de3d104<br>
   <br>
+
+# Add video tutorial on how to use github
