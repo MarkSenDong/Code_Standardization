@@ -50,16 +50,16 @@ Git by default is a commandline tool.<br>
 As a website, Github gives you the option to use an online GUI for managing your repo.<br>
 But if you want to take a step further, there are 2 options.<br> 
 <br>
-  **Github Desktop**(*Windows only*):<br>
-  Download link: https://desktop.github.com/<br>
-  Tutorials: https://help.github.com/en/desktop/getting-started-with-github-desktop<br>
-  One of the most convenient way of using github, and most of the time I use it to manage and work with github.<br>
-  <br>
-  **Gitkraken**(*Linux, MacOS, Windows*):<br>
-  Download link: https://www.gitkraken.com/download<br>
-  How to install: https://support.gitkraken.com/how-to-install/<br>
-  Link Gitkraken to your Github account: https://support.gitkraken.com/integrations/github/<br>
-  Basic Tutorial: https://support.gitkraken.com/start-here/guide/<br>
-  I have not used it since I work mainly on Windows PC. But for Linux users, Github Desktop is not yet available.<br>
-  In this case, Gitkraken is one of the best Github GUI out there, and it is free for personal use.<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;**Github Desktop**(*Windows only*):<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;Download link: https://desktop.github.com/<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;Tutorials: https://help.github.com/en/desktop/getting-started-with-github-desktop<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;One of the most convenient way of using github, and most of the time I use it to manage and work with github.<br>
+ <br>
+ &nbsp;&nbsp;&nbsp;&nbsp;**Gitkraken**(*Linux, MacOS, Windows*):<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;Download link: https://www.gitkraken.com/download<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;How to install: https://support.gitkraken.com/how-to-install/<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;Link Gitkraken to your Github account: https://support.gitkraken.com/integrations/github/<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;Basic Tutorial: https://support.gitkraken.com/start-here/guide/<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;I have not used it since I work mainly on Windows PC. But for Linux users, Github Desktop is not yet available.<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;In this case, Gitkraken is one of the best Github GUI out there, and it is free for personal use.<br>
 <br>
