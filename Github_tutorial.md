@@ -11,7 +11,7 @@ https://guides.github.com/activities/hello-world/<br>
 
 ### 2. Video Tutorial series from Github official channel on Youtube
 https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-<br>
-**Recommended to watch in order to get a comprehensive theoretical understanding of the concept of Git.**<br>
+**Recommended to watch in order to get a comprehensive understanding of the concept of Git as well as most of the main functions!!!**<br>
 <br>
 
 ### Additional tips
