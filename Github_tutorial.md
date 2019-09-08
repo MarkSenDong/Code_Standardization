@@ -39,9 +39,18 @@ The file should provide an introduction or description of the repo:
 - what it is
 - what it does
 - how does it work
-- what it includes
+- what it includes<br>
 It has different syntax than normal text editing or word.<br>
 If you need help on how to stylise your README.md file, click the link here:<br>
 https://help.github.com/en/articles/basic-writing-and-formatting-syntax<br>
 <br>
 
+**6. Github GUI**<br>
+Git by default is a commandline tool.<br>
+As a website, Github gives you the option to use an online GUI for managing your repo.<br>
+But if you want to take a step further, you can chekc out the **Github Desktop**(*so far this is Windows only*):<br>
+Download link: https://desktop.github.com/<br>
+Tutorials: https://help.github.com/en/desktop/getting-started-with-github-desktop<br>
+
+
+One of the most convenient way of using github
