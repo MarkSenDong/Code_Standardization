@@ -21,6 +21,8 @@ Please find the botton to create new repository at the top left corner of your m
  
 **2. Private Repository**<br>
 If you do not want to allow the public to have access to your reppository, please remember to select **private repository** upon creation.<br>
+If you want to change your repo privacy setting after the creation, you can find it in 'Settings' at the top right corner of the repo's main page, scroll to the bottom where it says 'Danger Zone' and modify privacy setting there.<br>
+Simply follow the short tutorial here: https://help.github.com/en/articles/setting-repository-visibility<br>
 <br>
 **3. .gitignore**<br>
 If you want to upload local files to github, but you would like to ignore some specific file types from uploading, you can select the file type to be ignored here.<br>
@@ -50,8 +52,9 @@ Git by default is a commandline tool.<br>
 As a website, Github gives you the option to use an online GUI for managing your repo.<br>
 But if you want to take a step further, there are 2 options.<br> 
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;**Github Desktop**(*Windows only*):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Github Desktop**(*Windows, MacOS, not available for Linux*):<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Download link: https://desktop.github.com/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Short Getting Started Video (9 mins): https://www.youtube.com/watch?v=ci3W1T88mzw**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Tutorials: https://help.github.com/en/desktop/getting-started-with-github-desktop<br>
 &nbsp;&nbsp;&nbsp;&nbsp;One of the most convenient way of using github, and most of the time I use it to manage and work with github.<br>
 <br>
@@ -62,5 +65,5 @@ But if you want to take a step further, there are 2 options.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**Short Getting Started Video (6 mins): https://www.youtube.com/watch?v=ub9GfRziCtU**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Basic Tutorials: https://support.gitkraken.com/start-here/guide/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;I have not used it since I work mainly on Windows PC. But for Linux users, Github Desktop is not yet available.<br>
- &nbsp;&nbsp;&nbsp;&nbsp;In this case, Gitkraken is one of the best Github GUI out there, and it is free for personal use.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;In this case, Gitkraken is one of the best Github GUI out there, and it is free for personal use.<br>
 <br>
