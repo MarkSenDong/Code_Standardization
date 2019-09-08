@@ -46,7 +46,8 @@ The file should provide an introduction or description of the repo:
 - what it is
 - what it does
 - how does it work
-- what it includes<br>
+- what it includes
+<br>
 It has different syntax than normal text editing or word.<br>
 If you need help on how to stylise your README.md file, click the link here:<br>
 https://help.github.com/en/articles/basic-writing-and-formatting-syntax<br>
