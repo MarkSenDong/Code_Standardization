@@ -48,9 +48,18 @@ https://help.github.com/en/articles/basic-writing-and-formatting-syntax<br>
 **6. Github GUI**<br>
 Git by default is a commandline tool.<br>
 As a website, Github gives you the option to use an online GUI for managing your repo.<br>
-But if you want to take a step further, you can chekc out the **Github Desktop**(*so far this is Windows only*):<br>
-Download link: https://desktop.github.com/<br>
-Tutorials: https://help.github.com/en/desktop/getting-started-with-github-desktop<br>
-
-
-One of the most convenient way of using github
+But if you want to take a step further, there are 2 options.<br> 
+<br>
+  **Github Desktop**(*Windows only*):<br>
+  Download link: https://desktop.github.com/<br>
+  Tutorials: https://help.github.com/en/desktop/getting-started-with-github-desktop<br>
+  One of the most convenient way of using github, and most of the time I use it to manage and work with github.<br>
+  <br>
+  **Gitkraken**(*Linux, MacOS, Windows*):<br>
+  Download link: https://www.gitkraken.com/download<br>
+  How to install: https://support.gitkraken.com/how-to-install/<br>
+  Link Gitkraken to your Github account: https://support.gitkraken.com/integrations/github/<br>
+  Basic Tutorial: https://support.gitkraken.com/start-here/guide/<br>
+  I have not used it since I work mainly on Windows PC. But for Linux users, Github Desktop is not yet available.<br>
+  In this case, Gitkraken is one of the best Github GUI out there, and it is free for personal use.<br>
+<br>
