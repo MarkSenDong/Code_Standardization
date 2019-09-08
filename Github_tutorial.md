@@ -59,7 +59,7 @@ But if you want to take a step further, there are 2 options.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Download link: https://www.gitkraken.com/download<br>
 &nbsp;&nbsp;&nbsp;&nbsp;How to install: https://support.gitkraken.com/how-to-install/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Link Gitkraken to your Github account: https://support.gitkraken.com/integrations/github/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;**Short Getting Started Video: https://www.youtube.com/watch?v=ub9GfRziCtU**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Short Getting Started Video (6 mins): https://www.youtube.com/watch?v=ub9GfRziCtU**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Basic Tutorials: https://support.gitkraken.com/start-here/guide/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;I have not used it since I work mainly on Windows PC. But for Linux users, Github Desktop is not yet available.<br>
  &nbsp;&nbsp;&nbsp;&nbsp;In this case, Gitkraken is one of the best Github GUI out there, and it is free for personal use.<br>
