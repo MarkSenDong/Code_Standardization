@@ -14,10 +14,13 @@ https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-<br>
 
 
 ### Additional tips
-**1. New Repository**<br>
-Please find the botton to create new repository at the top left corner of your main dashboard once logged in.<br>
 <img src="images/2.new_repo.png" width="600">
 <br>
+**1. New Repository**<br>
+Please find the botton to create new repository at the top left corner of your main dashboard once logged in.<br>
+
  
 **2. Private Repository**<br>
 If you do not want to allow the public to have access to your reppository, please remember to select **private repository** upon creation.<br>
+<img src="images/3.new_repo.png">
+<br>
