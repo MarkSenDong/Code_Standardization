@@ -9,3 +9,15 @@ You’ll learn how to:<br>
 
 https://guides.github.com/activities/hello-world/<br>
 
+### 2. Video Tutorial series from Github official channel on Youtube
+https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-<br>
+
+
+### Additional tips
+**1. New Repository**<br>
+Please find the botton to create new repository at the top left corner of your main dashboard once logged in.<br>
+<img src="images/2.new_repo.png" width="600">
+<br>
+ 
+**2. Private Repository**<br>
+If you do not want to allow the public to have access to your reppository, please remember to select **private repository** upon creation.<br>
