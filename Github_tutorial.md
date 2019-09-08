@@ -1,6 +1,6 @@
 # Getting started with GitHub
 
-### 1. The 10 minutes quick start guide
+## 1. The 10 minutes quick start guide
 You’ll learn how to:<br>
 - Create and use a repository
 - Start and manage a new branch
@@ -9,25 +9,25 @@ You’ll learn how to:<br>
 
 https://guides.github.com/activities/hello-world/<br>
 
-### 2. Video Tutorial series from Github official channel on Youtube
+## 2. Video Tutorial series from Github official channel on Youtube
 https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-<br>
 **Recommended to watch in order to get a comprehensive understanding of the concept of Git as well as most of the main functions!!!**<br>
 <br>
 
-### Additional tips
-**1. New Repository**<br>
+## 3. Additional tips
+- **1. New Repository**<br>
 Please find the botton to create new repository at the top left corner of your main dashboard once logged in.<br>
 <img src="images/2.new_repo.png" width="600">
 <br>
  
-**2. Private Repository**<br>
+- **2. Private Repository**<br>
 If you do not want to allow the public to have access to your reppository, please remember to select **private repository** upon creation.<br>
 If you want to change your repo privacy setting after the creation, you can find it in 'Settings' at the top right corner of the repo's main page, scroll to the bottom where it says 'Danger Zone' and modify privacy setting there.<br>
 <br>
 To change your repo's privacy settings later on, simply follow the short tutorial here:<br>
 https://help.github.com/en/articles/setting-repository-visibility<br>
 <br>
-**3. .gitignore**<br>
+- **3. .gitignore**<br>
 If you want to upload local files to github, but you would like to ignore some specific file types from uploading, you can select the file type to be ignored here.<br>
 <br>
 **4. Choosing an appropriate open source license**<br>
