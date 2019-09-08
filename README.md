@@ -1,10 +1,11 @@
 # Code Standardization
-This repository provides an overview of code standardisation for both Matlab and Python.
+This repository provides an overview of code standardisation for both Matlab and Python as well as tutorials for using Github.
 
 The scope of this repository should include:<br>
-<b>1.</b> How to write code according to the official recommended style guide, including variable naming conventions<br>
-<b>2.</b> How to effectively comment your code<br>
-<b>3.</b> How to write description and helper document for your customised functions<br>
+<b>1.</b> Getting started with Github (Brief text tutorial and video tutorial seties)<br>
+<b>2.</b> How to write code according to the official recommended style guide, including variable naming conventions<br>
+<b>3.</b> How to effectively comment your code<br>
+<b>4.</b> How to write description and helper document for your customised functions<br>
 <b>4.</b> How to upload and manage your code with github<br>
 
 ## Matlab users, please start with the powerpoint presentation:
@@ -27,7 +28,11 @@ The scope of this repository should include:<br>
 
 ## Useful materials:
 
-### Topic 1. How to write code according to the official recommended style guide, including variable naming conventions
+### Topic 1. Getting started with Github:
+  https://github.com/MarkSenDong/Code_Standardization/blob/master/Github_tutorial.md<br>
+  <br>
+
+### Topic 2. How to write code according to the official recommended style guide, including variable naming conventions
   <b>Matlab:</b><br>
   Matlab Style Guidelines 2.0, Richard Johnson: <br>
   A comprehensive style guide for writing matlab code.<br>
@@ -51,7 +56,7 @@ The scope of this repository should include:<br>
   https://code.tutsplus.com/tutorials/top-15-best-practices-for-writing-super-readable-code--net-8118<br>
 <br> 
  
-### Topic 2. How to effectively comment your code 
+### Topic 3. How to effectively comment your code 
   <b>How To Properly Comment Your Code, MIT</b><br>
   This is an simple example of how to comment code for readability of other people and your future self.<br>
   The example provided is very basic and for beginners, it would be a good point to start.<br>
@@ -69,7 +74,7 @@ The scope of this repository should include:<br>
   https://medium.com/@andrewgoldis/how-to-document-source-code-responsibly-2b2f303aa525<br>
   <br>
 
-### Topic 3. How to write description and helper document for your customised functions
+### Topic 4. How to write description and helper document for your customised functions
   <b>Matlab:</b><br>
   https://de.mathworks.com/help/simulink/mdl_gd/maab/na_0025matlabfunctionheader.html<br>
   <br>
@@ -77,12 +82,10 @@ The scope of this repository should include:<br>
   https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html<br>
   <br>
   
-### Topic 4. How to upload and manage your code with github
+### Topic 5. How to upload and manage your code with github
   Follow this 20 minutes Youtube tutorial:<br>
   https://www.youtube.com/watch?v=0fKg7e37bQE<br>
   <br>
   How to use github desktop for gitlab:<br>
   https://itnext.io/how-to-use-github-desktop-with-gitlab-cd4d2de3d104<br>
   <br>
-
-# Add video tutorial on how to use github
