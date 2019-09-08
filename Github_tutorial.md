@@ -22,7 +22,8 @@ Please find the botton to create new repository at the top left corner of your m
 **2. Private Repository**<br>
 If you do not want to allow the public to have access to your reppository, please remember to select **private repository** upon creation.<br>
 If you want to change your repo privacy setting after the creation, you can find it in 'Settings' at the top right corner of the repo's main page, scroll to the bottom where it says 'Danger Zone' and modify privacy setting there.<br>
-Simply follow the short tutorial here: https://help.github.com/en/articles/setting-repository-visibility<br>
+To change your repo's privacy settings, simply follow the short tutorial here:<br>
+https://help.github.com/en/articles/setting-repository-visibility<br>
 <br>
 **3. .gitignore**<br>
 If you want to upload local files to github, but you would like to ignore some specific file types from uploading, you can select the file type to be ignored here.<br>
