@@ -55,7 +55,7 @@ https://help.github.com/en/articles/basic-writing-and-formatting-syntax**<br>
 **6). Github GUI**<br>
 Git by default is a commandline tool.<br>
 As a website, Github gives you the option to use an online GUI for managing your repo.<br>
-But if you want to take a step further, there are 2 options.<br> 
+But if you want to take a step further and use Github as a desktop software with GUI, there are 2 options.<br> 
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;**Github Desktop**(*Windows, MacOS, not available for Linux*):<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Download link: https://desktop.github.com/<br>
